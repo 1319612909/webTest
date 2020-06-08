@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+body{ color:#333; font:12px/14px "Microsoft yahei", arial; }
+a { color:#333; text-decoration:none; }
+a:hover { color:#f00; text-decoration:none; }
+
+.yahei {
+	font-family:"Microsoft yahei";
+}
+.songti {
+	font-family:"SimSun";
+}
+.textOverHide {
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.pointer {
+	cursor:pointer;
+}
+.block1200 {
+	width:1200px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.block1100 {
+	width:1100px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.block1000 {
+	width:1000px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.block998 {
+	width:998px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.block100 {
+	width:100%;
+	overflow:hidden;
+}
+.block50 {
+	width:50%;
+	overflow:hidden;
+}
+.block25 {
+	width:25%;
+	overflow:hidden;
+}
+.height100 {
+	height:100%;
+}
+.positionR {
+	position:relative;
+}
+.positionA {
+	position:absolute;
+}
+.positionF {
+	position:fixed;
+}
+
+#warp {
+	width:100%;
+	overflow:hidden;
+}
+
+#header, #footer {
+	width:100%;
+	overflow:hidden;
+}
+
+#header {
+	
+}
+.top {
+	width:100%;
+	height:36px;
+	font:normal 12px/40px "SimSun";
+	background:#6f6f6e;
+}
+.top strong{
+	color: #fff; font-weight:normal;
+}
+.top_list {
+	height:100%;
+}
+.top_list span{
+	color: #fff;}
+.top_list a{
+	padding:0 6px;
+}
+.top_list a:link, .top_list a:visited { color:#fff; }
+.top_list a:hover { color:#ff0; }
+
+.logoimg{
+	overflow: hidden;
+	margin:0 auto 0;
+}
+.logotext{
+	overflow: hidden;
+	margin-top:67px;
+}
+.logotext strong{
+	font-size:22px;
+	display: block;
+	font-weight:bold;
+	color: #333333;
+	line-height: 24px;
+}
+.logotext em{
+	font-size:18px;
+	display: block;
+	color: #888888;
+	font-weight:normal;
+	margin-top:12px;
+	line-height: 24px;
+}
+.logo{
+	position: absolute;
+	overflow: hidden;
+	margin-left:422px;
+}
+.logo img{
+	width:150px;
+	height: 168px;
+}
+.topright{
+	overflow: hidden;
+	width:100px;
+	height:101px;
+	margin-top:22px;
+}
+
+
+.logomain {
+	overflow:hidden;
+}
+
+.navigation {
+	height:62px;
+	margin:26px auto 0;
+	border-top: solid 1px #f2f2f2;
+	/* background-color: #f1f1f1; */
+}
+.nav {
+	height:100%;
+	text-align:center;
+	font:normal 14px/60px "Microsoft yahei";
+}
+.nav li {
+	height:100%;
+	float:left;
+	color: #333333;
+	margin-left:48px;
+}
+.nav li:first-child{
+	margin-left:0;
+}
+.navigation li a {
+	width:100%;
+	height:94%;
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.navigation li a:link, .navigation li a:visited { color:#333333; }
+.navigation li a:hover { border-bottom: solid 2px #7fadba; color: #7fadba; }
+
+.banner {
+	width:100%;
+	height:200px;
+	overflow:hidden;
+	position:relative;
+}
+.banner ul {
+	width:100000000000px;
+	height:100%;
+	position:absolute;
+	left:0; top:0;
+}
+.banner li {
+	height:100%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+}
+.banner li a {
+	width:100%;
+	height:100%;
+	display:block;
+}
+.banner li img {
+	position:absolute;
+	top:0;
+}
+.banner .bannerLodding {
+	width:150px;
+	height:30px;
+	position:absolute;
+	left:50%; top:50%;
+	margin:-15px 0 0 -50px;
+	color:#000;
+	text-align:center;
+	font:normal 12px/30px "SimSun";
+}
+.banner .bannerLodding img {
+	vertical-align:top;
+	margin:0 10px 0 0;
+}
+.banner span {
+	width:50px;
+	height:60px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:50%;
+	margin-top:-30px;
+}
+.banner span.bannerPrev {
+	left:50%;
+	margin-left:-500px;
+}
+.banner span.bannerNext {
+	right:50%;
+	margin-right:-500px;
+}
+.banner .ban_ico {
+	height:10px;
+	text-align:center;
+	position:absolute;
+	left:50%; bottom:20px;
+}
+.banner .ban_ico i {
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	display:inline-block;
+	margin:0 10px;
+	cursor:pointer;
+	background:#5a5d6c;
+}
+.banner .ban_ico i.active {
+	width:32px;
+	height:6px;
+	border-radius: 10px;
+	background: #7fadba;
+}
+
+.banner_hint {
+	overflow: hidden;
+	margin:0 auto 0;
+	padding-bottom:30px;
+	background: #f7f6f4;
+}
+.banner_hint h3{
+	font-size:30px;
+	color: #7fadba;
+	text-align: center;
+	line-height: 32px;
+	display:none;
+}
+.banner_hint h3 small{
+	font-size:20px;
+	color: #7fadba;
+	margin-right:10px;
+}
+.banner_hint_index {
+	overflow: hidden;
+	margin:0 auto 0;
+	padding-top: 50px;
+	background: #f7f6f4;
+}
+.banner_hint_index h3{
+	font-size:30px;
+	color: #7fadba;
+	text-align: center;
+	line-height: 32px;
+}
+.banner_hint_index h3 small{
+	font-size:20px;
+	color: #7fadba;
+	margin-right:10px;
+}
+.banner_btm{
+	height:60px;
+	line-height: 60px;
+	margin:30px auto 0;
+	border-top: solid 2px #0d596f;
+	/* border-bottom: solid 2px #0d596f; */
+}
+.banner_keywd{ width:980px; height:50px;}
+
+.banner_keywd strong{
+	font-size:16px;
+	color: #333333;
+	margin-right:10px;
+}
+.banner_keywd a {
+	margin:0 30px 0 0;
+}
+.banner_keywd a:link, .banner_keywd a:visited { color:#666666;font-size: 15px; }
+.banner_keywd a:hover { color:#666666;text-decoration: underline; }
+.banner_search {
+	width:316px;
+	height:42px;
+	margin-top:11px;
+	margin-left:50px;
+	background:#eceae6;
+	border-radius: 8px;
+	display:none;
+}
+.banner_search .textInput {
+	width:265px;
+	height:42px;
+	color:#cfccc6;
+	line-height: 42px;
+	background: none;
+	padding-left: 10px;
+}
+.banner_search .submitInput {
+	width:22px;
+	height:42px;
+	color:#fff;
+	line-height: 42px;
+	cursor:pointer;
+	margin-right:14px;
+	background:url(../images/search_03.png)center no-repeat;
+}
+
+
+#footer{
+	width: 100%;
+	background-color: #272727;
+}
+.foot_nav{
+	width: 100%;
+	height: 58px;
+	line-height: 56px;
+	border-bottom: 1px solid #1e1e1e;
+	text-align: center;
+}
+
+.foot_nav ul li{
+	text-align: center;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 40px;
+}
+.foot_nav ul li:first-child{
+	margin-left:0;
+}
+.foot_nav ul li a{
+	color: #ababab;
+	display: inline-block;
+	padding: 1px 0 0;
+}
+.foot_nav ul li a:hover{
+	color: #c8a063;
+	border-bottom: 2px solid #c8a063;
+}
+.dilogo{
+	width: 1000px;
+	margin: 55px auto 40px;
+	overflow: hidden;
+}
+.dilogo_left{
+	float: left;
+}
+.dilogo_left p{
+	line-height: 28px;
+	font-size: 12px;
+	color: #ababab;
+}
+.dilogo_left p a{color: #ababab;}
+.dilogo_left p span{
+	margin-left: 15px;
+}
+.dilogo_right{
+	float: right;
+}
+.dilogo_right img{
+	width: 102px;
+	height: 102px;
+}
+.banner{
+	height: 800px!important;
+	background: #d0d0d0;
+}
