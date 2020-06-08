@@ -29,7 +29,7 @@ $(function () {
 //    });
 
     muneCur2();
-    initCommonHeaderKeywords(MARK);
+    // initCommonHeaderKeywords(MARK);
     action();
 })
 
@@ -1065,14 +1065,14 @@ function getNewProduct() {
 }
 
 //初始化头部热门关键词
-function initCommonHeaderKeywords(_s) {
-    if (_s == "") _s = "6";
-    $.post("/ajax.ashx?action=initcommonheaderkeywords&t=" + Math.random(), {
-        s: _s
-    }, function (msg) {
-        $j("commonHeaderkeywords").html(msg);
-    });
-}
+// function initCommonHeaderKeywords(_s) {
+//     if (_s == "") _s = "6";
+//     $.post("/ajax.ashx?action=initcommonheaderkeywords&t=" + Math.random(), {
+//         s: _s
+//     }, function (msg) {
+//         $j("commonHeaderkeywords").html(msg);
+//     });
+// }
 //导航菜单选中
 function muneCur2() {
     var lis2 = $(".nav").find("li .erj");
